@@ -32,7 +32,7 @@ main {
   }
   text-align: center;
   background: linear-gradient(0deg, rgba($black, .75), transparent), $black
-              url('img/background.jpg') no-repeat center / cover;
+              url('../img/background.jpg') no-repeat center / cover;
   height: 100%;
 }
 img {
