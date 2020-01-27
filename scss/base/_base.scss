@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: $color-text;
+  background: $black;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+h1 ~ button {
+  margin-top: 30px;
+}
+h3 {
+  margin-top: 10px;
+}
+main {
+  @include flex($dir: column, $just: center) {
+    align-items: center;
+  }
+  text-align: center;
+  background: linear-gradient(0deg, rgba($black, .75), transparent), $black
+              url('../../img/background.jpg') no-repeat center / cover;
+  height: 100%;
+}
+img {
+  max-width: 100%;
+}
+i {
+  font-size: 2em;
+}
+:focus {
+  outline: 0;
+}

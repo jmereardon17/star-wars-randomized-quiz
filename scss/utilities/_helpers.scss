@@ -1,0 +1,25 @@
+%btn {
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-color: $color-text;
+  color: $black;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 15px 10px;
+  font-size: 1.15em;
+  transition: background-color .4s, color .4s;
+  display: block;
+  margin: auto;
+  &:hover {
+    background-color: $grey;
+    color: $color-text;
+  }
+}
+
+%choice {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -9999px;
+}

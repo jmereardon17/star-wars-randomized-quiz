@@ -1,0 +1,22 @@
+#overlay {
+  padding: 180px 1em 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  overflow: hidden;
+  > div {
+    position: relative;
+    z-index: 1000;
+  }
+}
+.start {
+  background: url('../../img/star-background.jpg') no-repeat center / cover;
+}
+.win {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url('../../img/win-screen.jpg') no-repeat center / cover;
+}
+.lose {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url('../../img/lose-screen.jpg') no-repeat center / cover;
+}

@@ -1,0 +1,15 @@
+// Lightsaber Styles
+.lightsaber {
+  width: 38px;
+  transition: transform .5s;
+  position: absolute;
+  top: 164px;
+}
+.blue {
+  -webkit-transform: translateX(-200vh);
+  transform: translateX(-200vh);
+}
+.red {
+  -webkit-transform: translateX(200vh);
+  transform: translateX(200vh);
+}

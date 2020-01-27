@@ -1,0 +1,38 @@
+form {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+#choices {
+  @include flex($wrap: wrap, $just: center);
+  @include mq(380px) {
+    justify-content: space-between;
+  }
+  margin: 30px 0;
+}
+.choice {
+  @extend %choice;
+  &:checked + label {
+    background-color: rgba(rgb(47, 255, 141), .6);
+  }
+  + label {
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 3px $black;
+    font-size: 1em;
+    font-weight: 500;
+    background: rgba($grey, .8);
+    color: $color-text;
+    border: 1.5px solid $color-text;
+    border-radius: 5px;
+    padding: 6px 10px 3px;
+    flex: 0 190px;
+    margin-bottom: 20px;
+    transition: background-color .4s, color .4s, opacity 1s;
+    &:hover {
+      background-color: rgba(rgb(47, 255, 141), .6);
+    }
+  }
+}
