@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Wars Quiz</title>
+  <link rel="stylesheet" href="css/application.css">
+</head>
+<body>
+  <main>
+    <div id="overlay" class="start">
+      <div>
+        <h1 class="title">Star Wars Quiz</h1>
+        <h2 class="tagline">Are you strong enough in the force?</h2>
+        <button id="startBtn" class="btn">Play</button>
+      </div>
+      <img class="lightsaber blue" src="img/blue-saber.png" alt="Blue Lightsaber">
+      <img class="lightsaber red" src="img/red-saber.png" alt="Red Lightsaber">
+    </div>
+    <h2 id="questionTip">Question <span id="number"></span></h2>
+    <h3 id="question"></h3>
+    <form>
+      <div id="choices"></div>
+      <button type="submit" id="submit" class="btn btn--default">Submit Answer</button>
+    </form>
+    <div id="answerIndicator"></div>
+  </main>
+  <script src="https://kit.fontawesome.com/ea32754530.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
