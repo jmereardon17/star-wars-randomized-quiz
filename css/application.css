@@ -404,7 +404,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), transparent), #000 url("../../img/background.jpg") no-repeat center/cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), transparent), #000 url("img/background.jpg") no-repeat center/cover;
   height: 100%;
 }
 
@@ -422,7 +422,7 @@ i {
 
 @font-face {
   font-family: "SfDistantGalaxy";
-  src: url("../../fonts/SfDistantGalaxy-0l3d.ttf") format("truetype");
+  src: url("fonts/SfDistantGalaxy-0l3d.ttf") format("truetype");
 }
 body {
   font-family: "SfDistantGalaxy", sans-serif;
@@ -485,15 +485,15 @@ body {
 }
 
 .start {
-  background: url("../../img/star-background.jpg") no-repeat center/cover;
+  background: url("img/star-background.jpg") no-repeat center/cover;
 }
 
 .win {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url("../../img/win-screen.jpg") no-repeat center/cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url("img/win-screen.jpg") no-repeat center/cover;
 }
 
 .lose {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url("../../img/lose-screen.jpg") no-repeat center/cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent), url("img/lose-screen.jpg") no-repeat center/cover;
 }
 
 .lightsaber {
